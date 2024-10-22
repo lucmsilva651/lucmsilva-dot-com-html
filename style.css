@@ -1,0 +1,33 @@
+body,
+.logo {
+  padding: 0;
+  margin: 0;
+}
+
+header,
+.header-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #0f0f0f;
+}
+
+header {
+  justify-content: space-between;
+}
+
+.header-links {
+  gap: .5em;
+}
+
+.logo {
+  font-size: 2.75em;
+}
+
+.content {
+  padding: .6em 2em;
+}

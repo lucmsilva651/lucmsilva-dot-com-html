@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="color-scheme" content="dark">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="songsel.css">
+  <link rel="stylesheet" href="font.css">
+  <title>lucmsilva [dot] com</title>
+</head>
+
+<body class="roboto-regular">
+  <span class="song-container">
+    <p>Song selection:</p>
+    <ul id="song-list">
+      <li><a song="http://www.fodxm.co.uk/fod_surfonasinewave.mp3" title="Fearofdark - Surfing On A Sine Wave">1</a></li>
+      <li><a song="http://www.fodxm.co.uk/fod_Rollingdownthestreet.mp3" title="Fearofdark - Rolling Down the Street (In My Katamari)">2</a></li>
+      <li><a song="http://www.fodxm.co.uk/fod_nucleartide.mp3" title="Fearofdark - Nuclear Tide">3</a></li>
+      <li><a song="http://www.fodxm.co.uk/06-fastcity.mp3" title="Fearofdark - Fast City">4</a></li>
+      <li><a song="http://www.fodxm.co.uk/fod_10%20SPECTRONOSIS.mp3" title="Fearofdark - Spectronosis">5</a></li>
+      <li><a song="http://www.fodxm.co.uk/fod_thegrooves3m.mp3" title="Fearofdark - The Groove">6</a></li>
+      <li><a song="http://www.fodxm.co.uk/fod_dancinginthetube.mp3" title="Fearofdark - Dancing In The Tube">7</a></li>
+      <li><a song="http://www.fodxm.co.uk/fod_fightinthefields.mp3" title="Fearofdark - Fight In The Fields">8</a></li>
+    </ul>
+
+    <a id="song-stop">Pause / Stop</a>
+    <p id="song-progress"></p>
+
+    <audio id="song-player" loop="true">
+      <source id="song-src">
+      </source>
+      Your browser does not support &lt;audio&gt;.
+    </audio>
+  </span>
+
+  <div class="content">
+    <header>
+      <h1 class="logo dm-serif-display-regular">lucmsilva</h1>
+
+      <div class="header-links">
+        <a href="https://bio.lucmsilva.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://blog.lucmsilva.com" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a href="https://bio.lucmsilva.com" target="_blank" rel="noopener noreferrer">My bio</a>
+        <a href="https://blog.lucmsilva.com" target="_blank" rel="noopener noreferrer">My blog</a>
+      </div>
+    </header>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
